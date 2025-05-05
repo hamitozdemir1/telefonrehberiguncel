@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Güncelle / Sil"
+        android:background="#ff6750a4"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <EditText
+            android:id="@+id/editAd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ad" />
+
+        <EditText
+            android:id="@+id/editSoyad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Soyad" />
+
+        <EditText
+            android:id="@+id/editNumara"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Numara"
+            android:inputType="phone" />
+
+        <Button
+            android:id="@+id/btnGuncelle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Güncelle" />
+
+        <Button
+            android:id="@+id/btnSil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sil" />
+    </LinearLayout>
+
+</LinearLayout>
